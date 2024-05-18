@@ -47,6 +47,7 @@ if ($response->hasErrors()) {
 
 For more information on performing queries, see the documentation for Softonic's [GraphQL Client](https://github.com/softonic/graphql-client).
 
+For information about the queries you can perform, see the documentation for Arbor Education's [GraphQL API](https://developers-portal.arbor.sc/pages/graphql)
 ## Authors
 
 - [@andrew1601](https://www.github.com/andrew1601)
