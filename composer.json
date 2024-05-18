@@ -1,0 +1,15 @@
+{
+    "name": "andrew1601/laravel-arbor",
+    "description": "A minimal package to quickly use the Arbor Education API in a Laravel project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Pope",
+            "email": "andrew@andrew-pope.co.uk"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^9.0"
+    }
+}
