@@ -2,6 +2,7 @@
     "name": "andrew1601/laravel-arbor",
     "description": "A minimal package to quickly use the Arbor Education API in a Laravel project",
     "type": "library",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
@@ -18,6 +19,16 @@
     "autoload": {
       "psr-4": {
         "ANP\\LaravelArbor\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "ANP\\LaravelArbor\\ArborGraphQLServiceProvider"
+        ],
+        "aliases": {
+          "ArborGraphQL": "ANP\\LaravelArbor\\Facades\\ArborGraphQL"
+        }
       }
     }
 }
